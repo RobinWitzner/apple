@@ -1,29 +1,39 @@
 <!DOCTYPE html>
+<!-- Fortæller det er html5 -->
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
 <html lang="da">
+
+<!-- I <head> har man opsætning - alt det som man ikke ser som selve indholdet -->
 <head>
+
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
     <meta charset="utf-8">
 
-    <title>Plugin skabelon</title>
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Sigende Titel</title>
 
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>apple-website</title>
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/styles.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="stylesheet" href="css/Corporate-Footer-Clean.min.css">
-    <link rel="stylesheet" href="css/styles.min.css">
 
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
-<body>
+<!-- i <body> har man alt indhold på siden -->
+<body style="background-color: #F2F2F2">
 <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
     <div class="container">
-        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="height: 40;width: 56;">
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"
+                style="height: 40px; width: 56px;">
             <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav flex-grow-1 justify-content-between">
@@ -44,83 +54,151 @@
         </div>
     </div>
 </nav>
-<section class="product macbookpro">
-    <h2 style="font-size: 15;">16" model</h2>
-    <h1>MacBook Pro</h1>
-    <h2>Det ypperste. Til de skarpeste.</h2>
-    <div class="links"><a class="learn-more" href="#">Læs mere&nbsp;<i class="fa fa-angle-right"></i></a><a href="#">Køb<i
-            class="fa fa-angle-right"></i></a></div>
-    <img class="img-fluid" src="img/macbook_large.jpg"></section>
-<section class="product iphone11pro">
-    <h1>iPhone 11 Pro</h1>
-    <h2>Kameraer, skærm og ydevne. Alt er Pro.</h2>
-    <div class="links small-link-margin"><a class="learn-more" href="#">Læs mere&nbsp;<i class="fa fa-angle-right"></i></a><a
-            href="#">Køb&nbsp;<i class="fa fa-angle-right"></i></a></div>
-    <img class="img-fluid" src="img/iphone11problack.jpg"></section>
-<section class="product iphone11">
-    <h1>iPhone 11</h1>
-    <h2>Lige nøjagtigt alt det, du har brug for.</h2>
-    <div class="links small-link-margin"><a class="learn-more" href="#">Læs mere&nbsp;<i class="fa fa-angle-right"></i></a><a
-            href="#">Køb&nbsp;<i class="fa fa-angle-right"></i></a></div>
-    <img class="img-fluid" src="img/iphone11large.jpg"></section>
-<div class="row no-gutters products-grid">
-    <div class="col-md-6">
-        <div class="product-small anonymitet">
-            <img class="img-fluid" src="img/applelogo.png">
-            <h3>Anonymitet</h3>
-            <h4>Du skal selv kunne bestemme, hvad du deler.</h4>
-            <div class="links small-link-margin"><a class="learn-more" href="#">Læs mere&nbsp;<i
-                    class="fa fa-angle-right"></i></a></div>
+
+
+<section class="ipadPro bg-white">
+    <h2 class="text-center w-25 mx-auto"><strong>Hils på den <br>nye generation af iPad.</strong></h2>
+    <div class="container">
+        <div class="ipad row">
+            <div class="col">
+                <h1 class="display-4 font-weight-bold">iPad Pro</h1>
+                <h4>Den mest avancerede iPad nogensinde.</h4>
+                <br>
+                <button type="button" class="btn btn-primary badge-pill pl-3 pr-3">Køb</button>
+                <br>
+                <br>
+                <a href="#">Læs mere ></a>
+            </div>
+            <img src="img/ipadPro.jpg" class="img-fluid col-9" alt="iPad Pro">
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="product-small apple-watch"
-             style="background-position:center;background-size:cover;background-repeat:no-repeat;background-image:url(&quot;img/applewatch.jpg&quot;);">
-            <h3><i class="fa fa-apple"></i>&nbsp;WATCH</h3>
-            <h5>SERIES 5</h5>
-            <h4>Med den nye Altid aktiv-Retina-skærm. <br> Du har aldrig set et ur som det her.</h4>
-            <div class="links small-link-margin"><a class="learn-more" href="#">Læs mere &nbsp;<i
-                    class="fa fa-angle-right"></i></a><a href="#">Køb&nbsp;<i class="fa fa-angle-right"></i></a></div>
+</section>
+
+<section class="iPadAir bg-white">
+    <div class="container">
+        <div class="ipad row">
+
+            <img src="img/ipadAir.png" class="img-fluid col-9" alt="iPad Pro">
+            <div class="col">
+                <h1 class="display-4 font-weight-bold">iPad Air</h1>
+                <h4>Mere power.<br>For mindre.</h4>
+                <br>
+                <button type="button" class="btn btn-primary badge-pill pl-3 pr-3">Køb</button>
+                <br>
+                <br>
+                <a href="#">Læs mere ></a>
+            </div>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="product-small iphone-8"
-             style="background-position:center;background-size:cover;background-repeat:no-repeat;background-image:url(&quot;img/momoa.jpg&quot;);">
-            <img src="img/momoalogo.png">
-            <h6>Oplev det store lærred på din egen skærm. Køb <br> en Apple-enhed, og få ét års Apple TV+.</h6>
-            <div class="links small-link-margin"><a class="learn-more" href="#">Se med nu i Apple TV-appen &nbsp;<i
-                    class="fa fa-angle-right"></i></a></div>
+</section>
+
+<section class="iPadNormal bg-white">
+    <div class="container">
+        <div class="ipad row">
+            <div class="col">
+                <h1 class="display-4 font-weight-bold">iPad</h1>
+                <h4>Vores mest populære iPad.</h4>
+                <br>
+                <button type="button" class="btn btn-primary badge-pill pl-3 pr-3">Køb</button>
+                <br>
+                <br>
+                <a href="#">Læs mere ></a>
+            </div>
+            <img src="img/ipadNormal.jpg" class="img-fluid col-9" alt="iPad Pro">
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="product-small dark"
-             style="background-position:center;background-size:cover;background-repeat:no-repeat;background-image:url(&quot;img/how_to_shoot_large.jpg&quot;);">
-            <h3>AirPods Pro</h3>
-            <h4>Sød magi i dine ører.</h4>
-            <div class="links small-link-margin"><a class="learn-more" href="#">Læs mere &nbsp;<i
-                    class="fa fa-angle-right"></i></a><a href="#">Køb&nbsp;<i class="fa fa-angle-right"></i></a></div>
+</section>
+
+<section class="iPadMini bg-white">
+    <div class="container">
+        <div class="ipad row">
+            <img src="img/ipadMini.jpg" class="img-fluid col-9" alt="iPad Pro">
+            <div class="col">
+                <h1 class="display-4 font-weight-bold">iPad mini</h1>
+                <h4>Lille størrelse. <br>Store muligheder.</h4>
+                <br>
+                <button type="button" class="btn btn-primary badge-pill pl-3 pr-3">Køb</button>
+                <br>
+                <br>
+                <a href="#">Læs mere ></a>
+            </div>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="product-small air-pods"
-             style="background-position:center;background-size:cover;background-repeat:no-repeat;">
-            <h3>AirPods Pro</h3>
-            <h4>Sød magi i dine ører.</h4>
-            <div class="links small-link-margin"><a class="learn-more" href="#">Læs mere &nbsp;<i
-                    class="fa fa-angle-right"></i></a><a href="#">Køb&nbsp;<i class="fa fa-angle-right"></i></a></div>
+</section>
+
+<section class="bg-white m-4">
+    <h2 class="text-center w-50 mx-auto pt-5">Sammenlign iPad-modeller</h2>
+    <div class="container">
+        <div class="row">
+    <div class="card col" style="width: 18rem;">
+        <img class="card-img-top" src="img/ipadProCompare.png" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-text">iPad Pro</h4>
+            <ul style="list-style: none">
+            <li>12,9" og 11"</li>
+            <li>Liquid Retina-skærm</li>
+            <li>A12X Bionic-chip</li>
+           <li>Face ID</li>
+           <li>Op til 1 TB lagerplads</li>
+            <li>Understøtter Apple Pencil
+            (2. generation)</li>
+            <li>Understøtter Smart Keyboard Folio</li>
+            </ul>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="product-small apple-watch"
-             style="background-position:center;background-size:cover;background-repeat:no-repeat;">
-            <h3><i class="fa fa-apple"></i>&nbsp;WATCH</h3>
-            <h5>SERIES 5</h5>
-            <h4>Hej123</h4>
-            <div class="links small-link-margin"><a class="learn-more" href="#">Læs mere &nbsp;<i
-                    class="fa fa-angle-right"></i></a><a href="#">Køb&nbsp;<i class="fa fa-angle-right"></i></a></div>
-            <img class="img-fluid" src="img/watch_series_3_large.jpg"></div>
+
+    <div class="card col" style="width: 18rem;">
+        <img class="card-img-top" src="img/ipadAirCompare.png" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-text">iPad Air</h4>
+            <p>10,5" Retina-skærm</p>
+            <p>A12 Bionic-chip</p>
+            <p>Touch ID</p>
+            <p>Op til 256 GB lagerplads</p>
+            <p>Understøtter Apple Pencil
+            (1. generation)</p>
+            <p>Understøtter Smart Keyboard</p>
+        </div>
     </div>
-</div>
+
+    <div class="card col" style="width: 18rem;">
+        <img class="card-img-top" src="img/ipadNormalCompare.png" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-text">iPad</h4>
+            <p>10,2" Retina-skærm</p>
+            <p>A10 Bionic-chip</p>
+            <p>Touch ID</p>
+            <p>Op til 128 GB lagerplads</p>
+            <p>Understøtter Apple Pencil
+            (1. generation)</p>
+            <p>Understøtter Smart Keyboard</p>
+        </div>
+    </div>
+    <div class="card col" style="width: 18rem;">
+        <img class="card-img-top" src="img/ipadMiniCompare.png" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-text">iPad mini</h4>
+            <p>7,9" Retina-skærm</p>
+            <p>A12 Bionic-chip</p>
+            <p>Touch ID</p>
+            <p>Op til 256 GB lagerplads</p>
+            <p>Understøtter Apple Pencil
+            (1. generation)</p>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<section>
+    <img src="img/jule-logo.png" class="img-fluid" alt="jule-logo">
+    <h1>Gøre julen lidt gladere.</h1>
+</section>
+
+<section>
+    <h1>Giv os din gamle iPad, og få et tilskud til en ny.</h1>
+</section>
+
 <footer class="page-footer">
     <div class="container">
         <div class="row">
