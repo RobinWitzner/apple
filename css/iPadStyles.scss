@@ -1,26 +1,76 @@
-
 $bg-black: #000000;
 
+//@import "../node_modules/bootstrap/scss/variables";
+
+.ipadPro, .ipadAir, .iPadNormal, .ipadMini{
+  padding-bottom: 170px;
+}
 
 
-//@import "node_modules/bootstrap/scss/bootstrap";
+.ipadAirpods{
+  background-color: black;
+  height: 554px;
+}
 
-.tvShow{
+.juleLogo{
+  background-image: url("../img/jule-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 75px;
+  height: 75px;
+}
+
+.juleSektionIpad{
+  background-image: url("../img/juleSektioniPad.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+}
+
+
+.ipadOsTekst {
+  padding-top: 15%;
+}
+
+.ipadRedImg{
+  background-image: url("../img/ipadRed.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+  left: 150px;
+}
+
+.ipadRedTekst {
+  padding-top: 15%;
+  margin-bottom: 150px;
+}
+
+.ipadPay {
+  height: 550px;
+}
+
+.ipadIcloud {
+  height: 550px;
+}
+
+.tvShow {
   background-color: $bg-black;
 }
 
-.tvTekst{
+.tvTekst {
   margin-top: 10%;
 
 }
 
-
-.tv-image{
+.tv-image {
   width: 100%;
   height: auto;
 }
 
-.ipadTvTekst{
+.ipadTvTekst {
   margin-top: 70px;
   margin-bottom: 100px;
 }
@@ -28,13 +78,31 @@ $bg-black: #000000;
 .appleMusic {
   background-image: url("../img/appleMusic.jpg");
   background-repeat: no-repeat;
-  background-size: 675px 600px;
-  padding-top: ;
+  background-position: 0;
+  background-size: cover;
+  height: 575px;
 }
 
-.ipadArcade{
+.ipadArcade {
   background-image: url("../img/appleArcadeIpad.jpg");
   background-repeat: no-repeat;
-  background-size: 675px 600px;
-  height: 700px;
+  background-position: 0;
+  background-size: cover;
+  height: 575px;
+}
+
+.ipadLearning {
+  background-image: url("../img/ipadLearning.jpg");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+  height: 575px;
+}
+
+.ipadErhverv {
+  background-image: url("../img/ipadErhverv.jpg");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+  height: 575px;
 }

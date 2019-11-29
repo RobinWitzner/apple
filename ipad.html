@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="stylesheet" href="css/Corporate-Footer-Clean.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,7 +58,7 @@
 </nav>
 
 
-<section class="ipadPro bg-white jumbotron pb-5">
+<section class="ipadPro bg-white">
     <h2 class="text-center w-50 mx-auto jumbotron bg-white display-4 font-weight-bold">Hils på den <br>nye generation af
         iPad.</h2>
     <div class="container">
@@ -76,7 +77,7 @@
     </div>
 </section>
 
-<section class="iPadAir bg-white jumbotron">
+<section class="iPadAir bg-white">
     <div class="container">
         <div class="ipad row">
 
@@ -94,7 +95,7 @@
     </div>
 </section>
 
-<section class="iPadNormal bg-white pb-5 pt-5">
+<section class="iPadNormal bg-white">
     <div class="container">
         <div class="ipad row">
             <div class="col">
@@ -111,7 +112,7 @@
     </div>
 </section>
 
-<section class="iPadMini bg-white pt-5">
+<section class="iPadMini bg-white">
     <div class="container">
         <div class="ipad row">
             <img src="img/ipadMini.jpg" class="img-fluid col-9" alt="iPad Pro">
@@ -193,8 +194,8 @@
     </div>
 </section>
 
-<section class="juleSektion m-4 bg-white p-5">
-    <img src="img/jule-logo.png" class="pt-5 img-fluid mx-auto d-block" alt="jule-logo">
+<section class="juleSektion m-4 bg-white p-5 d-flex flex-column align-items-center ">
+    <div class="juleLogo"></div>
     <h1 class="text-center display-4"><strong>Gøre julen lidt gladere.</strong></h1>
     <div class="text-center h4">
         <a href="#">
@@ -202,7 +203,7 @@
         </a>
     </div>
     <br>
-    <img src="img/juleSektioniPad.png" class="img-fluid" alt="jule-billede">
+    <div class="juleSektionIpad w-100"></div>
 </section>
 
 <section class="ipadTilskud bg-white m-4 pt-5">
@@ -248,63 +249,80 @@
 <section class="ipadTilbehør pt-5 pb-5 m-5">
     <h1 class="text-center font-weight-bold display-4 pt-5">iPad-tilbehør</h1>
 
-    <div class="row bg-white pt-5">
-        <div class="col text-center mr-3">
-            <h1>Apple Pencil</h1>
-            <h4>
-                <small>Få en idé. Få den ned.</small>
-            </h4>
-            <a href="#">Læs mere ></a>
-            <a href="#" class="pl-4">Køb ></a>
-            <img src="img/applePencil.jpg" class="img-fluid" alt="Apple Pencil">
+    <div class="row">
+        <div class="col-sm-6 pr-lg-3 mt-4">
+            <div class="text-center ipadPencil d-flex align-items-center flex-column pt-5 bg-white">
+                <h1>Apple Pencil</h1>
+                <h4>
+                    <small>Få en idé. Få den ned.</small>
+                </h4>
+                <div class="d-flex flex-nowrap">
+                    <a href="#">Læs mere ></a>
+                    <a href="#" class="pl-4">Køb ></a>
+                </div>
+                <img src="img/applePencil.jpg" class="img-fluid" alt="Apple Pencil">
+
+            </div>
         </div>
 
-        <div class="col text-center pb-5">
-            <img src="img/ipadFolio.jpg" class="img-fluid pb-5" alt="iPad folio case">
-            <h1>Smart Keyboard Folio</h1>
-            <h4>
-                <small>Tastatur i fuld størrelse. Beskytter hele vejen rundt.</small>
-            </h4>
-            <a href="#">Læs mere ></a>
-            <a href="#" class="pl-4">Køb ></a>
+        <div class="col-sm-6 pl-lg-3 mt-4">
+            <div class="text-center ipadFolio d-flex align-items-center flex-column pb-4 bg-white">
+                <img src="img/ipadFolio.jpg" class="img-fluid" alt="Apple Folio Case">
+                <h1>Smart Keyboard Folio</h1>
+                <h4>
+                    <small>Tastatur i fuld størrelse. Beskytter hele vejen rundt.</small>
+                </h4>
+                <div class="d-flex flex-nowrap">
+                    <a href="#">Læs mere ></a>
+                    <a href="#" class="pl-4 pb-3">Køb ></a>
+                </div>
 
+            </div>
         </div>
-        <div class="w-100"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 pr-lg-3 mt-4">
+            <div class="text-center ipadTilbehør d-flex align-items-center flex-column pt-5 bg-white">
 
-        <div class="col text-center pb-5">
-
-            <h1>Tilbehør</h1>
-            <h4>
-                <small>Find covers, etuier og meget mere, som kan hjælpe dig til at få mest muligt ud af din iPad.
-                </small>
-            </h4>
-            <a href="#" class="pl-4">Shop iPad tilbehør ></a>
-            <img src="img/ipadTilbehør.jpg" class="img-fluid" alt="iPad Tilbehør">
+                <h1>Tilbehør</h1>
+                <h4>
+                    <small>Find covers, etuier og meget mere,<br> som kan hjælpe dig til at få mest muligt ud af <br>din
+                        iPad.
+                    </small>
+                </h4>
+                <a href="#" class="pl-4">Shop iPad tilbehør ></a>
+                <img src="img/ipadTilbehør.jpg" class="img-fluid" alt="iPad Tilbehør">
+            </div>
         </div>
 
-        <div class="col text-center pb-5">
+        <div class="col-sm-6 pl-lg-3 mt-4">
+            <div class="text-center d-flex ipadAirpods align-items-center flex-column pt-5 text-white">
 
-            <h1>AirPods</h1>
-            <h4>
-                <small>Det eminente ligger til familien.</small>
-            </h4>
-            <a href="#" class="pl-4">Læs mere ></a>
-            <img src="img/ipadAirpods.jpg" class="img-fluid" alt="iPad AirPods">
+                <h1>AirPods Pro</h1>
+                <h4>
+                    <small>Sød magi i dine ører.</small>
+                </h4>
+                <div class="d-flex flex-nowrap">
+                    <a href="#">Læs mere ></a>
+                    <a href="#" class="pl-4">Køb ></a>
+                </div>
+                <img src="img/ipadAirpodsPro.jpg" class="img-fluid w-75" alt="iPad Tilbehør">
+            </div>
         </div>
+
 
     </div>
 </section>
 
 <section class="ipadRed m-4 mb-5" style="background-color: #b00e23;">
     <div class="container row">
-        <div class="col text-white text-center">
+        <div class="col-lg-6 text-white text-center ipadRedTekst">
             <h4>Farven gør en forskel.</h4>
             <h1>Vælg (Red).</h1>
             <h1>Red liv.</h1>
             <a href="#" class="text-white">Shop kollektionen ></a>
         </div>
-        <div class="col">
-            <img src="img/ipadRed.jpg" class="img-fluid" alt="iPad Red">
+        <div class="col-lg-6 ipadRedImg">
         </div>
     </div>
 </section>
@@ -312,9 +330,9 @@
 <section class="ipadTilIpad m-5">
     <h1 class="text-center display-4 font-weight-bold mb-5 mt-5">Hvad gør en iPad til en iPad?</h1>
     <div class="row bg-white">
-        <div class="col text-center">
+        <div class="col text-center ipadOsTekst">
             <h1>iPadOS</h1>
-            <h4>Det er ikke kun navnet, der er nyt.</h4>
+            <h4>Det er ikke kun navnet,<br> der er nyt.</h4>
             <a href="#">Se nyhederne ></a>
         </div>
         <div class="col">
@@ -323,30 +341,36 @@
     </div>
 </section>
 
-<section class="ipadIcloud bg-white m-4">
+<section class=" m-4">
 
-    <div class="row m-4">
-        <div class="col-6 text-center">
-            <h1>iCloud</h1>
-            <h4>Det bedste sted til alle dine billeder, filer og mere.</h4>
-            <a href="#">Læs mere ></a>
-            <img src="img/ipadIcloud.jpg" class="img-fluid" alt="iPad iCloud">
+    <div class="row m-1">
+        <div class="col-lg-6 pr-lg-3">
+            <div class="bg-white text-center ipadIcloud d-flex align-items-center flex-column p-5">
+                <h1>iCloud</h1>
+                <h4>Det bedste sted til alle dine billeder,<br> filer og mere.</h4>
+                <a href="#">Læs mere ></a>
+                <br>
+                <img src="img/ipadIcloud.jpg" class="img-fluid pt-5" alt="iPad iCloud">
+            </div>
         </div>
 
-        <div class="col-6 text-center">
-            <h1>Pay</h1>
-            <h4>Så nemt som et bip.</h4>
-            <a href="#">Læs mere ></a>
-            <img src="img/applePay.jpg" class="img-fluid" alt="Apple Pay">
+        <div class="col-lg-6 pl-lg-3">
+            <div class="bg-white text-center ipadPay d-flex align-items-center flex-column p-5">
+                <h1><i class="fa fa-apple"></i> Pay</h1>
+                <h4>Så nemt som et bip.</h4>
+                <a href="#">Læs mere ></a>
+                <br>
+                <img src="img/applePay.jpg" class="img-fluid pt-5" alt="Apple Pay">
+            </div>
         </div>
     </div>
 </section>
 
-<section class="text-center jumbotron">
+<section class="text-center m-5">
     <h1 class="display-4 font-weight-bold ipadTvTekst">Få mere ud af din iPad</h1>
     <div class="row text-white tvShow">
         <div class="col tvTekst">
-            <h1>tv+</h1>
+            <h1><i class="fa fa-apple"></i> tv+</h1>
             <h4>
                 <small>Lys. Kamera. iPad.<br>
                     Enhver ny iPad kommer med<br>
@@ -361,55 +385,64 @@
     </div>
 </section>
 
-<section class="ipadMusicArcade pt-5 pb-5 m-5">
+<section class="ipadMusicArcade m-5">
 
-    <div class="row bg-white pt-5 ">
-        <div class="col text-center mr-3 appleMusic ">
-            <h1>Music</h1>
-            <h4>
-                <small>60 millioner sange. Tre måneder gratis.</small>
-            </h4>
-            <a href="#">Prøv det gratis ></a>
-            <a href="#" class="pl-4">Læs mere ></a>
+    <div class="row">
+        <div class="col-lg-6 pl-lg-2">
+            <div class="text-center appleMusic d-flex align-items-center flex-column text-white pt-5">
+                <h1><i class="fa fa-apple"></i> Music</h1>
+                <h4>
+                    <small>60 millioner sange. Tre måneder gratis.</small>
+                </h4>
+                <div class="d-flex flex-nowrap">
+                    <a href="#" class="text-white">Prøv det gratis ></a>
+                    <a href="#" class="pl-4 text-white">Læs mere ></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 pr-lg-2">
+            <div class="text-center ipadArcade d-flex align-items-center flex-column text-white pt-5">
+                <h1><i class="fa fa-apple"></i> Arcade</h1>
+                <h4>
+                    <small>Ekstraordinære spiloplev­elser.<br>
+                        Find det i App Store.
+                    </small>
+                </h4>
+                <div class="d-flex flex-nowrap">
+                    <a href="#" class="text-white">Prøv det gratis ></a>
+                    <a href="#" class="pl-4 text-white">Læs mere ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 pl-lg-2 mt-4">
+            <div class="text-center ipadLearning d-flex align-items-center flex-column text-white pt-5">
+
+                <h1>Læring med iPad</h1>
+                <h4>
+                    <small>Den perfekte computer til læring<br>
+                        ligner slet ikke en computer.
+                    </small>
+                </h4>
+                <a href="#" class="pl-4 text-white">Læs mere om iPad i undervisningen ></a>
+                <a href="#" class="pl-4 text-white">Shop til Apples studiepriser ></a>
+            </div>
         </div>
 
-        <div class="ipadArcade col text-center pb-5">
+        <div class="col-lg-6 pr-lg-2 mt-4">
+            <div class="text-center ipadErhverv d-flex align-items-center flex-column text-white pt-5">
 
-            <h1>Arcade</h1>
-            <h4>
-                <small>Ekstraordinære spiloplev­elser.<br>
-                    Find det i App Store.
-                </small>
-            </h4>
-            <a href="#">Prøv det gratis ></a>
-            <a href="#" class="pl-4">Læs mere ></a>
+                <h1>iPad til erhverslivet.</h1>
+                <h4>
+                    <small>iPad er spækket med funktioner, der kan ændre den<br>
+                        måde, I arbejder på.
+                    </small>
+                </h4>
+                <a href="#" class="pl-4 text-white">Læs mere ></a>
+            </div>
+
         </div>
-        <div class="w-100"></div>
-
-        <div class="col text-center pb-5">
-
-            <h1>Læring med iPad</h1>
-            <h4>
-                <small>Den perfekte computer til læring<br>
-                    ligner slet ikke en computer.
-                </small>
-            </h4>
-            <a href="#" class="pl-4">Læs mere om iPad i undervisningen ></a>
-            <img src="img/ipadLearning.jpg" class="img-fluid" alt="iPad læring">
-        </div>
-
-        <div class="col text-center pb-5">
-
-            <h1>iPad til erhverslivet.</h1>
-            <h4>
-                <small>iPad er spækket med funktioner, der kan ændre den<br>
-                    måde, I arbejder på.
-                </small>
-            </h4>
-            <a href="#" class="pl-4">Læs mere ></a>
-            <img src="img/ipadAirpods.jpg" class="img-fluid" alt="iPad AirPods">
-        </div>
-
     </div>
 </section>
 
