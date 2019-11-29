@@ -1,0 +1,40 @@
+
+$bg-black: #000000;
+
+
+
+//@import "node_modules/bootstrap/scss/bootstrap";
+
+.tvShow{
+  background-color: $bg-black;
+}
+
+.tvTekst{
+  margin-top: 10%;
+
+}
+
+
+.tv-image{
+  width: 100%;
+  height: auto;
+}
+
+.ipadTvTekst{
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.appleMusic {
+  background-image: url("../img/appleMusic.jpg");
+  background-repeat: no-repeat;
+  background-size: 675px 600px;
+  padding-top: ;
+}
+
+.ipadArcade{
+  background-image: url("../img/appleArcadeIpad.jpg");
+  background-repeat: no-repeat;
+  background-size: 675px 600px;
+  height: 700px;
+}
