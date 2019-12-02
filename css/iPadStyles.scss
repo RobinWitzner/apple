@@ -1,14 +1,25 @@
+
 $bg-black: #000000;
+$mobil: "screen and (max-width: 1199px)";
+$tablet: "screen and (min-width: 768px)";
+$pc: "screen and (min-width: 1200px)";
+
 
 //@import "../node_modules/bootstrap/scss/variables";
 
-.ipadPro, .ipadAir, .iPadNormal, .ipadMini{
+.ipadPro, .iPadAir, .iPadNormal{
   padding-bottom: 170px;
+}
+
+.compare{
+  h2{
+    padding: 100px;
+  }
 }
 
 
 .ipadAirpods{
-  background-color: black;
+  background-color: $bg-black;
   height: 554px;
 }
 
@@ -105,4 +116,14 @@ $bg-black: #000000;
   background-position: 0;
   background-size: cover;
   height: 575px;
+
+}
+
+
+
+@media #{$mobil} {
+  .ipadErhverv{
+  width: 100%;
+    color: red
+  }
 }

@@ -1,0 +1,84 @@
+
+.support {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  font-size: 35pt;
+}
+
+.supportBillede {
+  width: 100%;
+}
+
+.searchBox {
+  position: absolute;
+  bottom: 350px;
+
+}
+
+.fa-search {
+  color: grey;
+}
+
+.OSSupport {
+  .row {
+    padding: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+    .col-sm {
+      h4 {
+        padding-bottom: 24px;
+      }
+      a {
+        font-size: 17pt;
+      }
+
+    }
+  }
+}
+
+.help {
+  margin-right: 15%;
+  margin-left: 15%;
+  .first-section {
+    margin-right: 10%;
+  }
+}
+
+.appleCareSupportImg {
+
+  background-image: url("../img/appleCareSupport.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150px;
+
+}
+
+.appleCare {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.opmærksom {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.appleGavekort {
+  .gavekortBillede {
+    background-image: url("../img/appleGavekort.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+  }
+  div :nth-child(2){
+    margin-right: 20%;
+  }
+}
+
+.linksSupport {
+  margin-left: 25%;
+  margin-right: 25%;
+}
