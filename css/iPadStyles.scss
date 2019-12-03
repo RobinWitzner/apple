@@ -1,129 +1,437 @@
-
 $bg-black: #000000;
-$mobil: "screen and (max-width: 1199px)";
-$tablet: "screen and (min-width: 768px)";
+
 $pc: "screen and (min-width: 1200px)";
 
-
 //@import "../node_modules/bootstrap/scss/variables";
-
-.ipadPro, .iPadAir, .iPadNormal{
-  padding-bottom: 170px;
+.ipadPro, .iPadAir, .iPadNormal {
+  padding-bottom: 70px;
 }
 
-.compare{
-  h2{
-    padding: 100px;
-  }
+.ipadProBillede {
+  background-image: url("../img/ipadPro.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  width: 100%;
+  margin-left: 5%;
 }
 
-
-.ipadAirpods{
-  background-color: $bg-black;
-  height: 554px;
+.ipadProTekst {
+  padding-left: 20%;
 }
 
-.juleLogo{
+.ipadAirBillede {
+  background-image: url("../img/ipadAir.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+
+.ipadAirTekst {
+  padding-left: 20%;
+}
+
+.iPadNormal {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.ipadMiniMobil {
+  background-image: url("../img/ipadminiMobil.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 320px;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.iPadMini {
+  padding-left: 20%;
+}
+
+.juleSektion {
+  width: 100%;
+}
+
+.mobilBillede {
+
+  background-image: url("../img/juleMobil.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.juleLogo {
   background-image: url("../img/jule-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   width: 75px;
   height: 75px;
+
 }
 
-.juleSektionIpad{
-  background-image: url("../img/juleSektioniPad.png");
+.ipadTilskud {
+  width: 100%;
+}
+
+.applePencilImg {
+  background-image: url("../img/applePencilMobil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 250px;
+}
+
+.folioMobil {
+  background-image: url("../img/ipadFolioMobil.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 300px;
+  width: 100%;
+  height: 250px;
 }
 
-
-.ipadOsTekst {
-  padding-top: 15%;
+.ipadTilbehørMobil {
+  background-image: url("../img/ipadTilbehørMobil.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 250px;
 }
 
-.ipadRedImg{
+.ipadTilbehørWeb {
+  display: none;
+}
+
+.ipadAirpods {
+  background-color: $bg-black;
+  height: 554px;
+}
+
+.ipadRedImg {
   background-image: url("../img/ipadRed.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center center;
   position: relative;
-  left: 150px;
+  height: 300px;
+
 }
 
 .ipadRedTekst {
   padding-top: 15%;
-  margin-bottom: 150px;
 }
 
-.ipadPay {
-  height: 550px;
+.ipadTilIpadBillede {
+  background-image: url("../img/ipadTilipad.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 100%;
 }
 
-.ipadIcloud {
-  height: 550px;
+.icloud {
+
+  background-image: url("../img/ipadIcloud.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 80%;
+  position: relative;
+  left: 15%;
+}
+
+.applePay {
+  background-image: url("../img/applePay.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  right: 10%;
+}
+
+.tvShowBillede {
+  background-image: url("../img/tvShowBilledeMobil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  width: 100%;
 }
 
 .tvShow {
   background-color: $bg-black;
 }
 
-.tvTekst {
-  margin-top: 10%;
-
-}
-
-.tv-image {
-  width: 100%;
-  height: auto;
-}
-
-.ipadTvTekst {
-  margin-top: 70px;
-  margin-bottom: 100px;
-}
-
 .appleMusic {
   background-image: url("../img/appleMusic.jpg");
   background-repeat: no-repeat;
-  background-position: 0;
-  background-size: cover;
-  height: 575px;
+  background-position: center center;
+  background-size: contain;
+  height: 500px;
+
 }
 
 .ipadArcade {
   background-image: url("../img/appleArcadeIpad.jpg");
   background-repeat: no-repeat;
-  background-position: 0;
-  background-size: cover;
-  height: 575px;
+  background-position: center center;
+  background-size: contain;
+  height: 500px;
 }
 
 .ipadLearning {
   background-image: url("../img/ipadLearning.jpg");
   background-repeat: no-repeat;
-  background-position: 0;
+  background-position: center center;
   background-size: cover;
-  height: 575px;
+  height: 500px;
 }
 
 .ipadErhverv {
   background-image: url("../img/ipadErhverv.jpg");
   background-repeat: no-repeat;
-  background-position: 0;
+  background-position: center center;
   background-size: cover;
-  height: 575px;
+  height: 500px;
 
 }
 
+@media #{$pc} {
 
-
-@media #{$mobil} {
-  .ipadErhverv{
-  width: 100%;
-    color: red
+  .ipadPro {
+    .ipadProWeb {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    h2 {
+      font-size: 65px;
+    }
+    .ipadProBillede {
+      width: 100%;
+      height: 300px;
+      background-size: contain;
+    }
+    .ipadProTekst {
+      padding-left: 20%;
+      h4 {
+        font-size: 20pt;
+        width: 300px;
+      }
+    }
   }
+
+  .ipadAirWeb {
+    display: flex;
+    flex-direction: row;
+    .ipadAirBillede {
+      height: 500px;
+      width: 60%;
+      background-size: cover;
+    }
+    .ipadAirTekst {
+      padding-left: 50%;
+      padding-top: 5%;
+      position: absolute;
+    }
+  }
+
+  .ipadNormalWeb {
+    display: flex;
+    flex-direction: row-reverse;
+    .ipadNormalBillede {
+      width: auto;
+      height: 400px;
+    }
+    .ipadNormalTekst {
+      padding-top: 60px;
+    }
+  }
+
+  .ipadMiniTekst {
+    position: relative;
+    bottom: 230px;
+  }
+
+  .ipadMiniWeb {
+    background-image: url("../img/ipadMini.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    height: 500px;
+
+  }
+
+  .ipadMiniMobil {
+    display: none;
+  }
+
+  .juleSektionIpad {
+    background-image: url("../img/juleSektioniPad.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+  }
+
+  .mobilBillede {
+    display: none;
+  }
+
+  .ipadTilskud {
+    padding-top: 100px;
+    h3 {
+      font-size: 35pt;
+    }
+  }
+
+  .service {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ipadTilskud{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .ipadPencil {
+    margin-left: 5%;
+    padding:0;
+    .applePencilImg {
+      display: none;
+    }
+    .applePencilWeb {
+      background-image: url("../img/applePencil.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 300px;
+      width: 100%;
+    }
+  }
+
+  .ipadFolio {
+    margin-right: 5%;
+
+    .ipadFolioWeb {
+      background-image: url("../img/ipadFolio.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 300px;
+      width: 100%;
+    }
+
+    .linksFolio {
+      padding-bottom: 50px;
+    }
+
+    .brFolio {
+      display: none;
+    }
+
+    .folioMobil {
+      display: none;
+    }
+  }
+  .ipadTilbehørContainer{
+    margin-left: 5%;
+  }
+  .ipadTilbehørWeb{
+    display: block;
+    width: 94%;
+    background-position: bottom center;
+  }
+
+  .ipadTilbehørMobil{
+    display: none;
+  }
+
+  .ipadAirpods{
+    height: 575px;
+    margin-right: 5%;
+  }
+
+  .ipadOsTekst {
+    padding-top: 15%;
+  }
+
+ .icloud{
+   position: relative;
+   left: 10%;
+ }
+  .applePay{
+    position: relative;
+    left: 1%;
+  }
+  .ipadPay {
+    height: 550px;
+    margin-top: -15px;
+    margin-right: 5%;
+  }
+
+  .ipadIcloud {
+    height: 550px;
+    margin-left: 5%;
+
+  }
+  .ipadTvTekst{
+    margin-top: 80px;
+    font-size: 44pt;
+  }
+
+  .tvShow{
+    margin-left: 2%;
+    padding-top: 100px;
+    height: 500px;
+    margin-bottom: 130px;
+  }
+  .tvShowBilledeWeb{
+    background-image: url("../img/tvShowBilledeMobil.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 500px;
+    width: 100%;
+  }
+
+  .tvShowBillede{
+    display: none;
+  }
+
+  .tvTekst{
+    position: relative;
+    bottom: 500px;
+    right: 400px;
+  }
+
+  .brTv{
+    display: none;
+  }
+
+  .ipadLearning{
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+
+  .ipadErhverv{
+    margin-right: 5%;
+    margin-top: 1%;
+  }
+
 }
+
