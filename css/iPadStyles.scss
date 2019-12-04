@@ -270,13 +270,27 @@ $pc: "screen and (min-width: 1200px)";
     background-image: url("../img/ipadMini.jpg");
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: contain;
+    background-size: cover;
     height: 500px;
+
+  }
+
+  .ipadMini{
 
   }
 
   .ipadMiniMobil {
     display: none;
+  }
+
+  .compare{
+    padding: 100px;
+    .container{
+      .row{
+      display: flex;
+      flex-direction: row;
+      }
+    }
   }
 
   .juleSektionIpad {
