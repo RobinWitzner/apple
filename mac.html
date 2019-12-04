@@ -31,7 +31,7 @@
 <body>
 <header>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
-        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="height: 40;width: 56;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav flex-grow-1 justify-content-between">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-apple apple-logo"></i></a></li>
@@ -51,7 +51,7 @@
 </header>
 
 <main class="container-fluid d-flex align-items-center flex-column">
-    <section class="mac-sortiment d-flex flex-row w-100 justify-content-between align-items-baseline overflow-hidden">
+    <section class="mac-sortiment d-sm-flex flex-row w-100 justify-content-between align-items-baseline overflow-hidden d-none">
         <div class="sortiment_punkt">
             <img src="img/macbookair__ej39du0gz4uq_large.svg" class="sortiment_img" alt="">
             <span>MacBook Air</span>
@@ -95,6 +95,87 @@
         <div class="sortiment_punkt">
             <img src="img/mac_osx__dntc9ef2limq_large.svg" class="sortiment_img" alt="">
             <span>Catalina</span>
+        </div>
+    </section>
+
+    <section>
+        <div id="carouselExampleControls" class="carousel slide d-sm-none w-100" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active w-100">
+                    <div class="w-100 d-flex flex-nowrap justify-content-between d-sm-none mac-sortiment align-items-center">
+                        <div class="sortiment_punkt">
+                            <img src="img/macbookair__ej39du0gz4uq_large.svg" class="sortiment_img" alt="">
+                            <span>MacBook Air</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/macbook_pro_13__ep96x983izyq_large.svg" class="sortiment_img" alt="">
+                            <span>MacBook Pro 13"</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/macbook_pro_16__ni9nkbyq2dm6_large.svg" class="sortiment_img" alt="">
+                            <span>MacBook Pro 16"</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/imac__dkswmjfqeziq_large.svg" class="sortiment_img" alt="">
+                            <span>iMac</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item w-100">
+                    <div class="w-100 d-flex flex-nowrap justify-content-around d-sm-none mac-sortiment align-items-center">
+
+                        <div class="sortiment_punkt">
+                            <img src="img/imac_pro__eer4bfwlutme_large.svg" class="sortimentimgt" alt="">
+                            <span>iMac Pro</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/mac_pro__bn92faz71k6a_large.svg" class="sortiment_img" alt="">
+                            <span>Mac Pro</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/macmini__c6u0it831y0y_large.svg" class="sortiment_img" alt="">
+                            <span>Mac mini</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/mac_comp__ee2pokmcxh26_large.svg" class="sortiment_img" alt="">
+                            <span>Sammenlign</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item w-100">
+                    <div class="w-100 d-flex flex-nowrap justify-content-around d-sm-none mac-sortiment align-items-center">
+
+                        <div class="sortiment_punkt">
+                            <img src="img/macmini__c6u0it831y0y_large.svg" class="sortiment_img" alt="">
+                            <span>Mac mini</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/mac_comp__ee2pokmcxh26_large.svg" class="sortiment_img" alt="">
+                            <span>Sammenlign</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/pro_display_xdr__do0vjpny1kqe_large.svg" class="sortiment_img" alt="">
+                            <span>Pro Display XDR</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/mac_acc__fy6vtx5eqoyi_large.svg" class="sortiment_img" alt="">
+                            <span>Tilbehør</span>
+                        </div>
+                        <div class="sortiment_punkt">
+                            <img src="img/mac_osx__dntc9ef2limq_large.svg" class="sortiment_img" alt="">
+                            <span>Catalina</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
 
@@ -584,7 +665,15 @@
             4. 39 kr./måned efter den gratis prøveperiode. Ét abonnement pr. gruppe med Familiedeling. Tilbuddet gælder i 3 måneder efter aktivering af den kvalificerede enhed. Abonnementet fornys auto­matisk, indtil det opsiges. Begrænsninger og andre vilkår er gældende.
             <br><br>
             5. 39 kr./måned efter den gratis prøveperiode. Ingen binding. Når prøveperioden udløber, bliver abonnementet automatisk fornyet, indtil det opsiges.
-        </p><br>
+        </p>
+        <hr>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#"><i class="fa fa-apple apple-logo"></i></a></li>
+                <li class="breadcrumb-item active" aria-current="page">Mac</li>
+            </ol>
+        </nav>
+
         <div class="row">
             <div class="col-6 col-md-3">
                 <h4>Shop og lær</h4>
