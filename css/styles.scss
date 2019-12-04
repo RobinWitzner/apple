@@ -17,6 +17,11 @@ body {
   padding-top: 50px;
 }
 
+.product-small.air-pods {
+  background-color: black;
+  color: white;
+}
+
 .product {
   padding-top: 50px;
   text-align: center;
@@ -122,6 +127,10 @@ body {
   margin-bottom: 0;
 }
 
+.links.single-link {
+  margin-left: 20px;
+}
+
 .product-small .links.small-link-margin {
   margin-bottom: 10px;
 }
@@ -178,11 +187,11 @@ body {
 }
 
 .product-small.air-pods {
-  background-color: #fafafa;
+  background-color: black;
 }
 
-.product-small.apple-watch {
-  background-color: #eeeeee;
+.product-small.arcade {
+  color: white;
 }
 
 .product-small h5 {
