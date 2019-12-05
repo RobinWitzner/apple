@@ -2,7 +2,30 @@ $bg-black: #000000;
 
 $pc: "screen and (min-width: 1200px)";
 
-//@import "../node_modules/bootstrap/scss/variables";
+.ipad-sortiment{
+  background-color: #fff;
+  padding: 0 15%;
+  .sortiment-punkt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    .sortiment-img{
+      width: 35px;
+      height: auto;
+    }
+    span{
+      font-size: small;
+    }
+    .spanHover:hover{
+      color: blue;
+    }
+  }
+}
+h1{
+  font-size: 60px;
+}
+
 .ipadPro, .iPadAir, .iPadNormal {
   padding-bottom: 70px;
 }
@@ -180,7 +203,7 @@ $pc: "screen and (min-width: 1200px)";
   background-image: url("../img/appleMusic.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   height: 500px;
 
 }
@@ -189,7 +212,7 @@ $pc: "screen and (min-width: 1200px)";
   background-image: url("../img/appleArcadeIpad.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   height: 500px;
 }
 
@@ -209,6 +232,7 @@ $pc: "screen and (min-width: 1200px)";
   height: 500px;
 
 }
+
 
 @media #{$pc} {
 
@@ -270,27 +294,13 @@ $pc: "screen and (min-width: 1200px)";
     background-image: url("../img/ipadMini.jpg");
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: cover;
+    background-size: contain;
     height: 500px;
-
-  }
-
-  .ipadMini{
 
   }
 
   .ipadMiniMobil {
     display: none;
-  }
-
-  .compare{
-    padding: 100px;
-    .container{
-      .row{
-      display: flex;
-      flex-direction: row;
-      }
-    }
   }
 
   .juleSektionIpad {
@@ -305,6 +315,21 @@ $pc: "screen and (min-width: 1200px)";
     display: none;
   }
 
+  .compare {
+    margin: 1%;
+    .container {
+      padding-bottom: 40px;
+      .row {
+        margin-left: 4%;
+          li {
+            font-size: 10pt;
+          }
+      .col-md-3{
+        margin-right: 5%;
+      }
+      }
+    }
+  }
   .ipadTilskud {
     padding-top: 100px;
     h3 {
@@ -317,14 +342,14 @@ $pc: "screen and (min-width: 1200px)";
     flex-direction: row;
   }
 
-  .ipadTilskud{
+  .ipadTilskud {
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .ipadPencil {
     margin-left: 5%;
-    padding:0;
+    padding: 0;
     .applePencilImg {
       display: none;
     }
@@ -362,21 +387,20 @@ $pc: "screen and (min-width: 1200px)";
       display: none;
     }
   }
-  .ipadTilbehørContainer{
+  .ipadTilbehørContainer {
     margin-left: 5%;
   }
-  .ipadTilbehørWeb{
+  .ipadTilbehørWeb {
     display: block;
     width: 94%;
     background-position: bottom center;
   }
 
-  .ipadTilbehørMobil{
+  .ipadTilbehørMobil {
     display: none;
   }
 
-  .ipadAirpods{
-    height: 575px;
+  .ipadAirpods {
     margin-right: 5%;
   }
 
@@ -384,11 +408,11 @@ $pc: "screen and (min-width: 1200px)";
     padding-top: 15%;
   }
 
- .icloud{
-   position: relative;
-   left: 10%;
- }
-  .applePay{
+  .icloud {
+    position: relative;
+    left: 10%;
+  }
+  .applePay {
     position: relative;
     left: 1%;
   }
@@ -403,18 +427,18 @@ $pc: "screen and (min-width: 1200px)";
     margin-left: 5%;
 
   }
-  .ipadTvTekst{
+  .ipadTvTekst {
     margin-top: 80px;
     font-size: 44pt;
   }
 
-  .tvShow{
+  .tvShow {
     margin-left: 2%;
     padding-top: 100px;
     height: 500px;
     margin-bottom: 130px;
   }
-  .tvShowBilledeWeb{
+  .tvShowBilledeWeb {
     background-image: url("../img/tvShowBilledeMobil.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -423,26 +447,34 @@ $pc: "screen and (min-width: 1200px)";
     width: 100%;
   }
 
-  .tvShowBillede{
+  .tvShowBillede {
     display: none;
   }
 
-  .tvTekst{
+  .tvTekst {
     position: relative;
     bottom: 500px;
     right: 400px;
   }
 
-  .brTv{
+  .brTv {
     display: none;
   }
 
-  .ipadLearning{
+  .appleMusic{
+    margin-left: 5%;
+  }
+
+  .ipadArcade{
+    margin-right: 5%;
+  }
+
+  .ipadLearning {
     margin-left: 5%;
     margin-top: 3%;
   }
 
-  .ipadErhverv{
+  .ipadErhverv {
     margin-right: 5%;
     margin-top: 1%;
   }
